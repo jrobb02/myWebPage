@@ -1,0 +1,110 @@
+html {
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-color:lightcyan;
+}
+
+
+
+body {
+  border: 20px;
+  border-style: double;
+  border-color: steelblue;
+  margin: 0;
+  padding: 0;
+}
+
+/*Index.html page*/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.portrait {
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.portrait img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.heading {
+  flex-grow: 1;
+  text-align: center;
+  margin-left: -165px;
+}
+
+
+h1{
+  font-size: 64px;
+  font-weight: bold;
+  color: navy;
+}
+
+.bio{
+  text-align: center;
+}
+
+
+h2{
+  font-size: 28px;
+  text-decoration: underline;
+  color: mediumblue;
+}
+
+.Job{
+  font-weight: bold;
+}
+
+
+li{
+  color: black;
+}
+
+
+h3{
+  font-size: 18px;
+  text-decoration: underline;
+  color: royalblue;
+}
+
+
+.contactButton{
+  text-align: center;
+}
+
+.TopofPageButton{
+  text-align: center;
+}
+
+
+
+/* Contact Me Page*/
+
+h5{
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 40px;
+  color: mediumblue;
+}
+
+.contactInfo{
+  text-align: center;
+}
+
+.ReturnHomeButton{
+  text-align: center;
+}
+
+
+
